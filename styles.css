@@ -15,6 +15,11 @@ body {
   line-height: 1.6;
 }
 
+/* Paragraphs */
+p {
+  margin-bottom: 1.2rem;
+}
+
 /* Title */
 h1 {
   text-align: center;
@@ -49,7 +54,7 @@ nav a:hover {
 
 /* Main content */
 main {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -71,6 +76,16 @@ section h2 {
 section h3 {
   color: #666;
   margin: 1.5rem 0 0.5rem 0;
+}
+
+/* Blockquote styles */
+blockquote {
+  background-color: #fff;
+  border-left: 5px solid #333;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #444;
 }
 
 /* Writing Gallery Styles */
@@ -102,7 +117,7 @@ section h3 {
 
 /* Abstract Styles */
 .abstract {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 2rem auto;
   text-align: left;
 }
